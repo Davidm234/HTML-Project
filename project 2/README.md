@@ -10,4 +10,4 @@ How to Use
 3. Select the length of the mortgage from the dropdown menu.
 4. Click "Calculate" to see the monthly payment.
 
-https://codesandbox.io/p/sandbox/mortgage-calculator-757lh5
+https://757lh5.csb.app/
