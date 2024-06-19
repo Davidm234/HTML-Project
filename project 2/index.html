@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Morgage Calculator</title>
+        <link rel="stylesheet" href="project2styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mortgage Calculator</h1>
+        </header>
+        <main>
+            <div class="calculator">
+                <div class="img"><img src="calculator.jfif" alt="Calculator Image">
+                </div>
+                <label for="principal">Principal ($):</label>
+                <input type="number" id="principal" min="0" required>
+                <label for="rate">Yearly Interest Rate (%):</label>
+                <input type="number" id="rate" min="0" step="0.01" required>
+                <label for="term">Term (years):</label>
+                <select id="term">
+                    <option value="10">10 years</option>
+                    <option value="15">15 years</option>
+                    <option value="30">30 years</option>
+                </select>
+                <button onclick="calculate()">Calculate</button>
+                <div id="result"></div>
+            </div>
+        </main>
+        <footer>
+            <p>Find the code on <a href="https://github.com/Davidm234/HTML-Project/blob/main/project%202/project2index.html" target="_blank">GitHub</a></p>
+        </footer>
+        <script src="project2myscript.js"></script>
+    </body>
+</html>
